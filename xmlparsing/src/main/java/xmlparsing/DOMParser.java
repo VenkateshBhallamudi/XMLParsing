@@ -34,6 +34,7 @@ public class DOMParser {
 			System.out.println(ex.getMessage());
 		}
 		System.out.println("Done!!!!!!");
+		System.out.println("New line.");
 	}
 	
 	public static void visitNode(Element previousNode, Element visitNode) {
