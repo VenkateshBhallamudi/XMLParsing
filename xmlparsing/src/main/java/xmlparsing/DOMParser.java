@@ -33,6 +33,7 @@ public class DOMParser {
 		} catch (IOException ex) {
 			System.out.println(ex.getMessage());
 		}
+		System.out.println("Done!!");
 	}
 	
 	public static void visitNode(Element previousNode, Element visitNode) {
